@@ -7,10 +7,9 @@ amount = "100"
 
 url = "https://exchangerate.guru/" + currencyFrom+"/"+ currencyTo +"/" +amount + "/"
 
-page = requests.get(url)
+page = requests.get(url) # Get page
 
-soup = BeautifulSoup(page.content, "html.parser")
-table = soup.find_all('table', class_="table table-condensed table-bordered")
-value = soup.find_all('strong', class_="pretty-sum")
+soup = BeautifulSoup(page.content, "html.parser") # Init beautiful soup
+value = soup.find_all('strong', class_="pretty-sum") # Get html tag with class pretty-sum
 
-print(amount + " " + currencyFrom +" to " + currencyTo + " = " +value[2].text)
+print(amount + " " + currencyFrom +" to " + currencyTo + " = " +value[2].text) # Print value
