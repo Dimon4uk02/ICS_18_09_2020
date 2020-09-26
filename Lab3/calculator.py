@@ -1,5 +1,13 @@
 operators = ("+", "-", "*", "/", "=")
-result = int(input("Введите ЦЕЛОЕ число \n"))
+
+while True:
+
+    try:
+        result = int(input("Введите ЦЕЛОЕ число \n"))
+        break
+    except:
+        print("Не правильное число \n")
+
 
 while True:
 
@@ -24,6 +32,7 @@ while True:
                 inputNumber = int(inputNumber)
             except:
                 print("Не корректное число \n")
+                break
 
             if inputValue == '+':
                 result += inputNumber
