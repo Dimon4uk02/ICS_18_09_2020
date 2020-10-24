@@ -1,0 +1,7 @@
+Tima, 11
+Gosha, 22
+Borya, 26
+Dasha, 33
+Sasha, 72
+Nastya, 90
+Vasya, 123
