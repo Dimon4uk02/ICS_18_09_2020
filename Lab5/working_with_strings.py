@@ -23,7 +23,7 @@ def random_phrase():
 
     return result_string
 
-# print(random_phrase())
+print(random_phrase())
 
 
 # Task2
