@@ -34,7 +34,7 @@ class Library():
         id = 0
 
         if(len(self.books) != 0):
-            id = self.books[len(self.books)]
+            id = len(self.books) + 1
 
         self.books.append(Book(book_name, author, genre,
                                year_of_publishing, id))
