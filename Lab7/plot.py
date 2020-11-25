@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
-import numpy as np
 from numpy import *
+import numpy as np
 
 
 def f(t):

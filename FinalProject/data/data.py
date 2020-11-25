@@ -2,7 +2,6 @@ import operator
 from dataclasses import dataclass
 import json
 import codecs
-import os
 
 
 @dataclass

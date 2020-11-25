@@ -7,7 +7,7 @@ title_list = ['Назва підприємства', 'Період', 'Товар
               'Фондомісткість',
               'Рентабільність']
 
-workbook = xlsxwriter.Workbook('test.xlsx')
+workbook = xlsxwriter.Workbook('table_efficiency_of_enterprise.xlsx')
 worksheet = workbook.add_worksheet()
 bold = workbook.add_format({'bold': True, })
 bold.set_text_wrap()
