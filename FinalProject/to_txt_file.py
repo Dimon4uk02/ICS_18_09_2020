@@ -1,3 +1,5 @@
+# @copyright САКУН_ВЛАДИСЛАВ_ОЛЕКСАНДРОВИЧ_ФІТ_1КУРС_4ГРУПА
+
 from numpy import *
 from FinalProject.convert_efficiency_to_json import dict_of_data_for_plot
 import codecs

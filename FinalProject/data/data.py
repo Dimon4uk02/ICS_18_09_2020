@@ -1,3 +1,6 @@
+# @copyright САКУН_ВЛАДИСЛАВ_ОЛЕКСАНДРОВИЧ_ФІТ_1КУРС_4ГРУПА
+
+
 import operator
 from dataclasses import dataclass
 import json
@@ -100,6 +103,5 @@ for data in data_array:
                                                          balance_profit=data.balance_income,
                                                          average_annual_cost_of_fixed_assets=
                                                          data.average_cost_main_components))
-
 
 sorted_enterprise_efficiency_list = sorted(efficiencyOfEnterprise, key=operator.attrgetter("name"))
