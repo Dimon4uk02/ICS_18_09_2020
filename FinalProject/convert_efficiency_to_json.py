@@ -1,7 +1,7 @@
 # @copyright САКУН_ВЛАДИСЛАВ_ОЛЕКСАНДРОВИЧ_ФІТ_1КУРС_4ГРУПА
 
 
-from FinalProject.data import data
+from FinalProject import data
 import json
 import codecs
 

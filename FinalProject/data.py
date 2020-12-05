@@ -42,7 +42,7 @@ def print_enterprise_activity(enterprise_activity):
 
 
 # Json was made by TABULA https://tabula.technology
-with codecs.open("data\\tabula-zad19.json", "r", 'utf-8') as f:
+with codecs.open("tabula-zad19.json", "r", 'utf-8') as f:
     distros_dict = json.load(f)
 
 data_array = []
